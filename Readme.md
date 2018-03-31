@@ -19,6 +19,7 @@ Start here with Amazon.
 Currently this project is using:
 
 ```
+git     version v2.14.3
 npm     version v5.5.1
 nodejs  version v9.2.1
 ```
