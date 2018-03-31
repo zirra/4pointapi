@@ -8,12 +8,22 @@ This is a demonstration piece for a NodeJS/Express Application exposing 4 end po
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+You will also need an Amazon account with access to the DynamoDB setup and configured.
 
-What things you need to install the software and how to install them
+Start here with Amazon.
 
 ```
-Give examples
+<strong><a class="button" href="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html">https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html</a></strong>
+
+```
+
+### Prerequisites
+
+Currently this project is using:
+
+```
+npm     version v5.5.1
+nodejs  version v9.2.1
 ```
 
 ### Installing
