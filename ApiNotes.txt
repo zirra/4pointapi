@@ -1,0 +1,122 @@
+Create Employee:
+
+URL: /api/v1/data
+Method: POST
+
+Data: 
+
+{
+	"data" : {
+    	"EmployeeID": "zzzzv",
+        "Email":"asmith@test.com",
+        "EmployeeName":"Adam Smith",
+        "EmployeeAddress": "Austin, Texas"
+       
+    }
+}
+
+CURL:
+
+curl -X POST \
+  http://localhost:4000/api/v1/data \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -d '{
+	"data" : {
+    	"EmployeeID": "zzzzv",
+        "Email":"asmith@test.com",
+        "EmployeeName":"Adam Smith",
+        "EmployeeAddress": "Austin, Texas"  
+    }
+}'
+
+__________________________________________________________________________________________________________________________
+
+Get Employees:
+
+URL: /api/v1/data
+Method: GET
+
+(gets all)
+
+CURL: 
+
+curl -X GET \ http://localhost:4000/api/v1/data \ -H 'cache-control: no-cache' \ -H 'content-type: application/json'
+
+__________________________________________________________________________________________________________________________
+
+Get Employee Record by:
+
+URL: /api/v1/data/:by/:id
+Method: GET
+
+:by - db key EmployeeID, Email, EmployeeName, EmployeeAddress
+:id - known value of :by
+
+CURL: 
+
+curl -X GET \  http://localhost:4000/api/v1/data/Email/jsmith@test.com \  -H 'cache-control: no-cache' \  -H 'content-type: application/json'
+
+__________________________________________________________________________________________________________________________
+
+Update Employee:
+
+URL: /api/v1/data
+Method: PATCH
+
+UpdateKeys:  EmployeeID, Email, EmployeeName, EmployeeAddress
+
+Data:
+
+{
+	"Employee": {
+		"ID": { ID },
+		"Email": { Email }
+	},
+	"Key": { UpdateKey },
+	"Value": 'new value'
+}
+
+CURL:
+
+curl -X PATCH \
+  http://localhost:4000/api/v1/data \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: 31e273c1-18ea-49df-c558-3c0ef0c8486b' \
+  -d '{
+	"Employee": {
+		"ID": "zzzza",
+		"Email": "dsmith@test.com"
+	},
+	"Key": "EmployeeAddress",
+	"Value":"Dallas, Texas"
+}'
+
+__________________________________________________________________________________________________________________________
+
+Delete Employee:
+
+URL: /api/v1/data
+Method: DELETE
+
+Data:
+
+{
+	"EmployeeID": "shdefhd",
+	"Email": "asgmith@test.com"
+}
+
+
+CURL:
+
+curl -X DELETE \
+  http://localhost:4000/api/v1/data \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'postman-token: f1463560-0650-591c-3bf6-7128d59d13ad' \
+  -d '{
+	"EmployeeID": "shdefhd",
+	"Email": "asgmith@test.com"
+}'
+__________________________________________________________________________________________________________________________

@@ -1,0 +1,25 @@
+{
+  "name": "4pointapi",
+  "version": "1.0.0",
+  "description": "Simple Express API, connection to Amazon DynamoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zirra/4pointapi"
+  },
+  "keywords": [
+    "Simple",
+    "Express",
+    "API",
+    "server"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.213.1",
+    "express": "^4.16.3"
+  }
+}
