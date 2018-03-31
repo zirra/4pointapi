@@ -21,7 +21,7 @@ Give examples
 Clone this project to your project folder
 
 ```
-git clone https://github.com/zirra/4pointapi
+$ git clone https://github.com/zirra/4pointapi
 ```
 
 ## Running the Application
@@ -29,13 +29,13 @@ git clone https://github.com/zirra/4pointapi
 Using NPM:
 
 ```
-npm run start
+$ npm run start
 ```
 
 Using Node
 
 ```
-node .
+$ node .
 ```
 
 ## Documentation
