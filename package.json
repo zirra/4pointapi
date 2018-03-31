@@ -4,6 +4,7 @@
   "description": "Simple Express API, connection to Amazon DynamoDB.",
   "main": "index.js",
   "scripts": {
+    "start": "node .",
     "test": "test-server"
   },
   "repository": {

@@ -18,58 +18,33 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Clone this project to your project folder
 
 ```
-Give the example
+git clone https://github.com/zirra/4pointapi
 ```
 
-And repeat
+## Running the Application
+
+Using NPM:
 
 ```
-until finished
+npm run start
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+Using Node
+
+```
+node .
+```
 
 ## Documentation
 
-Once up and running all API calls with examples are located at <strong><a class="button" href="http://localhost:4000">Full Documentation</a></strong>
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Once up and running all API calls with examples are located at <strong><a class="button" href="http://localhost:4000">http://localhost:4000</a></strong>
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/zirra/4pointapi/tags). 
 
 ## License
 
