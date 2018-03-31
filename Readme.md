@@ -12,7 +12,7 @@ You will also need an Amazon account with access to the DynamoDB setup and confi
 
 Start here with Amazon.
 
-<strong><a class="button" href="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html">https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html</a></strong>
+<strong><a class="button" href="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html" target="_blank">https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html</a></strong>
 
 ### Prerequisites
 
