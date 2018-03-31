@@ -8,7 +8,7 @@ This is a demonstration piece for a NodeJS/Express Application exposing 4 end po
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-You will also need an Amazon account with access to the DynamoDB setup and configured.
+You will also need an Amazon AWS account with access to the DynamoDB setup and configured.  
 
 Start here with Amazon.
 
@@ -23,15 +23,13 @@ npm     version v5.5.1
 nodejs  version v9.2.1
 ```
 
-### Installing
+### Installing and Running
 
 Clone this project to your project folder
 
 ```
 $ git clone https://github.com/zirra/4pointapi
 ```
-
-## Running the Application
 
 Using NPM:
 
@@ -48,6 +46,10 @@ $ node .
 ## Documentation
 
 Once up and running all API calls with examples are located at <strong><a class="button" href="http://localhost:4000">http://localhost:4000</a></strong>
+
+The files related to the project are located in  /node_modules/4point
+
+The live web file is located in  /node_modules/4point/www 
 
 ## Versioning
 
