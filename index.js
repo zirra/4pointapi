@@ -6,8 +6,11 @@ const   http					= require('http'),
 
 const   AWS                     = require('aws-sdk');
 
+
 AWS.config.update({
-  region: "us-west-2",
+    accessKeyId: '',
+    secretAccessKey: '',
+    region: "us-west-2",
 });
 
 
