@@ -14,6 +14,16 @@ Start here with Amazon.
 
 <strong><a class="button" href="https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html" target="_blank">https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/jssdk-prerequisites.html</a></strong>
 
+Once the project is setup, in  /index.js 
+
+AWS.config.update({
+    accessKeyId: '',
+    secretAccessKey: '',
+    region: "us-west-2",
+});
+
+Insert your access key, secret access key and set your region for your IAM Role.
+
 ### Prerequisites
 
 Currently this project is using:
